@@ -1,28 +1,38 @@
+import Logo from "../../assets/logo.svg"
+import IconeOMenu from '../../assets/iconeO-menu.svg';
+import IconeXMenu from '../../assets/iconeX-menu.svg';
+
+
 import {
 	Container,
 	DivLinks,
 	DivMain,
 	DivModo,
-	Input,
+    Input,
+    Label,
 	NewGameCpu,
 	NewGamePlayer,
-	Texto1,
-	Texto2,
 } from './styles';
 
 export function Menu() {
 	return (
 		<Container>
 			<DivMain>
-				<Logo src="./assets/logo.svg" alt="logo" />
+				<img src={Logo} alt="logo" />
 				<DivModo>
-					<Texto1>ESCOLHA O SÍMBOLO COM QUE DESEJA JOGAR</Texto1>
-					<Input type="radio" />
-					<Texto2>LEMBRE-SE: X VAI PRIMEIRO</Texto2>
+					<p>ESCOLHA O SÍMBOLO COM QUE DESEJA JOGAR</p>
+                    <Input type="checkbox" id="input"/>
+                    <Label htmlFor="input">
+						<div>
+							<img src={IconeOMenu} alt="X" />
+							<img src={IconeXMenu} alt="O" />
+						</div>
+					</Label>
+					<p>LEMBRE-SE: X VAI PRIMEIRO</p>
 				</DivModo>
 				<DivLinks>
-					<NewGameCpu>NOVO JOGO (VS CPU)</NewGameCpu>
-					<NewGamePlayer>NOVO JOGO (2 JOGADORES)</NewGamePlayer>
+					<NewGameCpu to="/">NOVO JOGO (VS CPU)</NewGameCpu>
+					<NewGamePlayer to="/">NOVO JOGO (2 JOGADORES)</NewGamePlayer>
 				</DivLinks>
 			</DivMain>
 		</Container>
