@@ -1,19 +1,18 @@
 export const temas = {
-    purple: '#9758a6',
-    darkPurple: '#5c2669',
-    secondDarkPurple: '#6f357c',
-    orange: '#ff8c05',
-    mainBlack: '#1f1f1f',
-    black: '#363636',
-    secondBlack: '#484848',
-    darkGray: '#625e5e',
-    lightGray: '#cdcdcd',
-    red: '#ff3205',
-    darkRed: '#cf3057',
-    white: '#fff',
-    secondWhite: '#f0f0f0',
-    darkWhite: '#f4f4f4',
-    gren: '#61a120',
-    roadRageFont: '"Road Rage", sans-serif',
-    poppinsFont: '"Poppins", sans-serif',
-}
+	azulAcinzentadoClaro: '#A8BFC9',
+	fundoEscuro: '#1F3641',
+	azulArdosiaClaro: 'hsl(199, 35%, 19%)',
+	azulArdosia: '#1A2A33',
+	azulArdosiaEscuro: 'hsl(202, 32%, 15%)',
+	azulPetroleo: 'hsl(202, 32%, 10%)',
+
+    azulClaroNeutro: 'hsl(198, 23%, 72%)',
+    azulMedioNeutro: 'hsl(198, 23%, 52%)',
+    azulProfundo: 'hsl(199, 35%, 10%)',
+
+	mostarda: 'hsl(39, 88%, 40%)',
+	amarelo: 'hsl(39, 88%, 58%)',
+
+	ciano: 'hsl(178, 60%, 48%)',
+	cianoEscuro: 'hsl(178, 60%, 30%)',
+};

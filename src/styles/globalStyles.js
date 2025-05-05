@@ -7,7 +7,7 @@ const globalStyles = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         outline: none;
-        font-family: "Poppins", sans-serif;
+        font-family: "Outfit", sans-serif;
         font-weight: 400;
         font-style: normal;
     }
