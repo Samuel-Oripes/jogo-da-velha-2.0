@@ -66,16 +66,14 @@ export const Label = styled.label`
         gap: calc(380px * 0.3 + 20px);
         margin: 0 10px;
         z-index: 1;
+
+        img {
+            user-select: none;
+            -webkit-user-drag: none;
+            pointer-events: none;
+        }
     }
 
-    
-    div {
-        position: absolute;
-        display: flex;
-        gap: calc(380px * 0.3 + 20px);
-        margin: 0 10px;
-        z-index: 1;
-    }
 `;
 
 export const Input = styled.input`
